@@ -27,32 +27,33 @@ function App() {
   );
 
   return (
-    <div className="coin-app">
+    <div className="container coin-app">
       <div className="coin-search">
-        <h1 className="coin-text">Get a CryptoFlash</h1>
+        <div className="row">
+          <h1 className="col-md-12 coin-text">Get a CryptoFlash</h1>
+        </div>
         <form>
           <input
-            type="text"
             placeholder="Search"
             className="coin-input"
             onChange={handleChange}
           />
         </form>
-        {filteredCoins.map((coin) => {
-          return (
-            <Coin
-              key={coin.id}
-              name={coin.name}
-              image={coin.image}
-              symbol={coin.symbol}
-              price={coin.current_price}
-              volume={coin.total_volume}
-              priceChange={coin.price_change_percentage_24h}
-              marketcap={coin.market_cap}
-            />
-          );
-        })}
       </div>
+      {filteredCoins.map((coin) => {
+        return (
+          <Coin
+            key={coin.id}
+            name={coin.name}
+            image={coin.image}
+            symbol={coin.symbol}
+            price={coin.current_price}
+            volume={coin.total_volume}
+            priceChange={coin.price_change_percentage_24h}
+            marketcap={coin.market_cap}
+          />
+        );
+      })}
     </div>
   );
 }
