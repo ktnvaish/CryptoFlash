@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/CryptoFlash/static/css/main.9c9c9d72.chunk.css",
-    "main.js": "/CryptoFlash/static/js/main.a6005e41.chunk.js",
-    "main.js.map": "/CryptoFlash/static/js/main.a6005e41.chunk.js.map",
-    "runtime-main.js": "/CryptoFlash/static/js/runtime-main.9d90c0ee.js",
-    "runtime-main.js.map": "/CryptoFlash/static/js/runtime-main.9d90c0ee.js.map",
-    "static/js/2.b12d40b8.chunk.js": "/CryptoFlash/static/js/2.b12d40b8.chunk.js",
-    "static/js/2.b12d40b8.chunk.js.map": "/CryptoFlash/static/js/2.b12d40b8.chunk.js.map",
-    "index.html": "/CryptoFlash/index.html",
-    "static/css/main.9c9c9d72.chunk.css.map": "/CryptoFlash/static/css/main.9c9c9d72.chunk.css.map",
-    "static/js/2.b12d40b8.chunk.js.LICENSE.txt": "/CryptoFlash/static/js/2.b12d40b8.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.9c9c9d72.chunk.css",
+    "main.js": "/static/js/main.a6005e41.chunk.js",
+    "main.js.map": "/static/js/main.a6005e41.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.92a099b2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.92a099b2.js.map",
+    "static/js/2.b12d40b8.chunk.js": "/static/js/2.b12d40b8.chunk.js",
+    "static/js/2.b12d40b8.chunk.js.map": "/static/js/2.b12d40b8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.9c9c9d72.chunk.css.map": "/static/css/main.9c9c9d72.chunk.css.map",
+    "static/js/2.b12d40b8.chunk.js.LICENSE.txt": "/static/js/2.b12d40b8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9d90c0ee.js",
+    "static/js/runtime-main.92a099b2.js",
     "static/js/2.b12d40b8.chunk.js",
     "static/css/main.9c9c9d72.chunk.css",
     "static/js/main.a6005e41.chunk.js"
